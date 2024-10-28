@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg-container {
+  background-color: #07080c;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-ele {
+  height: 300px;
+}
+
+.heading-ele {
+  color: #ffffff;
+  font-family: Roboto;
+}
+
+.speed-ele {
+  color: #ffffff;
+  font-family: Roboto;
+  font-weight: 400;
+}
+
+.para-ele {
+  color: #cbd5e1;
+  font-family: Roboto;
+}
+
+.accelerate-btn {
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-family: Roboto;
+  padding: 10px;
+  border-width: 0px;
+  border-radius: 8px;
+}
+
+.brake-btn {
+  background-color: transparent;
+  border-width: 2px;
+  color: #94a3b8;
+  border-color: #94a3b8;
+  font-family: Roboto;
+  border-style: solid;
+  padding: 10px;
+  border-radius: 8px;
+  margin-left: 24px;
+}
